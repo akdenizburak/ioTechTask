@@ -1,0 +1,20 @@
+﻿<Window x:Class="ioTechTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ioTechTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Buton" HorizontalAlignment="Left" Margin="111,188,0,0" VerticalAlignment="Top" Height="31" Width="78" Click="Button_Click"/>
+        <Ellipse x:Name="ellipseLed" HorizontalAlignment="Left" Height="53" Margin="120,116,0,0" Stroke="Black" VerticalAlignment="Top" Width="60" Fill="Black"/>
+        <Label Content="Lamba Grubu" Margin="42,56,677,348"/>
+        <Label Content="Text Grubu" Margin="414,56,305,348" FontStyle="Normal"/>
+        <TextBox x:Name="txtbox" HorizontalAlignment="Left" Margin="466,134,0,0" TextWrapping="Wrap" Text="Text Alan" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Buton" HorizontalAlignment="Left" Margin="487,188,0,0" VerticalAlignment="Top" Height="31" Width="78" Click="Button_Click_1"/>
+        <CheckBox x:Name="chckboxOnOff" Content="Kapalı" HorizontalAlignment="Left" Margin="114,91,0,0" VerticalAlignment="Top" Width="108" Checked="chckboxOnOff_Checked"/>
+        <Label Content="SERVER UYGULAMASI" Margin="17,10,600,398" FontWeight="Bold" FontSize="14"/>
+
+    </Grid>
+</Window>
